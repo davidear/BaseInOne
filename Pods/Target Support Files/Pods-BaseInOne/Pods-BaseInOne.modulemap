@@ -1,0 +1,6 @@
+framework module Pods_BaseInOne {
+  umbrella header "Pods-BaseInOne-umbrella.h"
+
+  export *
+  module * { export * }
+}
