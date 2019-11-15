@@ -13,7 +13,11 @@
 @end
 
 @implementation AppDelegate
+static AppDelegate* sInstance;
 
++(id)sharedInstance{
+    return sInstance;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

@@ -13,6 +13,7 @@ target 'BaseInOne' do
   pod 'ReactiveObjC'
   pod 'WebViewJavascriptBridge'
   pod 'MJRefresh'
+  pod 'MJExtension'
   pod 'MBProgressHUD'
   pod 'TWMessageBarManager'
   pod 'DZNEmptyDataSet'

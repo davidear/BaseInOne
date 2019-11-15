@@ -15,6 +15,17 @@
 		3344B574237E7BA400A4D612 /* FSExtraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B571237E7BA400A4D612 /* FSExtraModel.m */; };
 		3344B577237E81F100A4D612 /* FSBaseNavigationTabContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B575237E81F100A4D612 /* FSBaseNavigationTabContainerController.m */; };
 		3344B57A237E84D600A4D612 /* FSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B579237E84D600A4D612 /* FSBaseNavigationController.m */; };
+		3344B57F237E87F000A4D612 /* FSIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B57D237E87F000A4D612 /* FSIAPManager.m */; };
+		3344B5A9237E8B0200A4D612 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B590237E8B0200A4D612 /* UIImage+Category.m */; };
+		3344B5AA237E8B0200A4D612 /* NSString+Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B591237E8B0200A4D612 /* NSString+Encrypt.m */; };
+		3344B5AC237E8B0200A4D612 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B597237E8B0200A4D612 /* UIViewController+BackButtonHandler.m */; };
+		3344B5AD237E8B0200A4D612 /* UIDevice+FSExtentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B598237E8B0200A4D612 /* UIDevice+FSExtentsion.m */; };
+		3344B5AE237E8B0200A4D612 /* NSString+emojiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B599237E8B0200A4D612 /* NSString+emojiFilter.m */; };
+		3344B5AF237E8B0200A4D612 /* UIView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B59B237E8B0200A4D612 /* UIView+CornerRadius.m */; };
+		3344B5B1237E8B0200A4D612 /* NSNumber+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B5A0237E8B0200A4D612 /* NSNumber+Category.m */; };
+		3344B5B3237E8B0200A4D612 /* MBProgressHUD+FSConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B5A2237E8B0200A4D612 /* MBProgressHUD+FSConvenience.m */; };
+		3344B5B4237E8B0200A4D612 /* UINavigationController+PopJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B5A3237E8B0200A4D612 /* UINavigationController+PopJump.m */; };
+		3344B5B5237E8B0200A4D612 /* AFNetworkReachabilityManager+FSNetType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B5A4237E8B0200A4D612 /* AFNetworkReachabilityManager+FSNetType.m */; };
 		338E5437237C0BCA00EF314B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E5436237C0BCA00EF314B /* AppDelegate.m */; };
 		338E543A237C0BCA00EF314B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E5439237C0BCA00EF314B /* SceneDelegate.m */; };
 		338E543D237C0BCA00EF314B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E543C237C0BCA00EF314B /* ViewController.m */; };
@@ -40,6 +51,30 @@
 		3344B576237E81F100A4D612 /* FSBaseNavigationTabContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseNavigationTabContainerController.h; sourceTree = "<group>"; };
 		3344B578237E84D600A4D612 /* FSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseNavigationController.h; sourceTree = "<group>"; };
 		3344B579237E84D600A4D612 /* FSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseNavigationController.m; sourceTree = "<group>"; };
+		3344B57D237E87F000A4D612 /* FSIAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSIAPManager.m; sourceTree = "<group>"; };
+		3344B57E237E87F000A4D612 /* FSIAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSIAPManager.h; sourceTree = "<group>"; };
+		3344B58D237E8B0200A4D612 /* NSNumber+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Category.h"; sourceTree = "<group>"; };
+		3344B590237E8B0200A4D612 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		3344B591237E8B0200A4D612 /* NSString+Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encrypt.m"; sourceTree = "<group>"; };
+		3344B593237E8B0200A4D612 /* UIView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CornerRadius.h"; sourceTree = "<group>"; };
+		3344B594237E8B0200A4D612 /* AFNetworkReachabilityManager+FSNetType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFNetworkReachabilityManager+FSNetType.h"; sourceTree = "<group>"; };
+		3344B595237E8B0200A4D612 /* UINavigationController+PopJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PopJump.h"; sourceTree = "<group>"; };
+		3344B596237E8B0200A4D612 /* MBProgressHUD+FSConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+FSConvenience.h"; sourceTree = "<group>"; };
+		3344B597237E8B0200A4D612 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		3344B598237E8B0200A4D612 /* UIDevice+FSExtentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+FSExtentsion.m"; sourceTree = "<group>"; };
+		3344B599237E8B0200A4D612 /* NSString+emojiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+emojiFilter.m"; sourceTree = "<group>"; };
+		3344B59B237E8B0200A4D612 /* UIView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CornerRadius.m"; sourceTree = "<group>"; };
+		3344B59C237E8B0200A4D612 /* NSString+Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encrypt.h"; sourceTree = "<group>"; };
+		3344B59D237E8B0200A4D612 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		3344B5A0237E8B0200A4D612 /* NSNumber+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Category.m"; sourceTree = "<group>"; };
+		3344B5A2237E8B0200A4D612 /* MBProgressHUD+FSConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+FSConvenience.m"; sourceTree = "<group>"; };
+		3344B5A3237E8B0200A4D612 /* UINavigationController+PopJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PopJump.m"; sourceTree = "<group>"; };
+		3344B5A4237E8B0200A4D612 /* AFNetworkReachabilityManager+FSNetType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFNetworkReachabilityManager+FSNetType.m"; sourceTree = "<group>"; };
+		3344B5A5237E8B0200A4D612 /* NSString+emojiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+emojiFilter.h"; sourceTree = "<group>"; };
+		3344B5A6237E8B0200A4D612 /* UIDevice+FSExtentsion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+FSExtentsion.h"; sourceTree = "<group>"; };
+		3344B5A7237E8B0200A4D612 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		3344B5B6237E8BBD00A4D612 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3344B5BA237E922000A4D612 /* ConfigMacro_h.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigMacro_h.h; sourceTree = "<group>"; };
 		338E5432237C0BCA00EF314B /* BaseInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338E5435237C0BCA00EF314B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		338E5436237C0BCA00EF314B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +124,49 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		3344B57B237E87D100A4D612 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3344B57C237E87F000A4D612 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				3344B57E237E87F000A4D612 /* FSIAPManager.h */,
+				3344B57D237E87F000A4D612 /* FSIAPManager.m */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		3344B58B237E8B0200A4D612 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3344B58D237E8B0200A4D612 /* NSNumber+Category.h */,
+				3344B5A0237E8B0200A4D612 /* NSNumber+Category.m */,
+				3344B59D237E8B0200A4D612 /* UIImage+Category.h */,
+				3344B590237E8B0200A4D612 /* UIImage+Category.m */,
+				3344B593237E8B0200A4D612 /* UIView+CornerRadius.h */,
+				3344B59B237E8B0200A4D612 /* UIView+CornerRadius.m */,
+				3344B596237E8B0200A4D612 /* MBProgressHUD+FSConvenience.h */,
+				3344B5A2237E8B0200A4D612 /* MBProgressHUD+FSConvenience.m */,
+				3344B5A6237E8B0200A4D612 /* UIDevice+FSExtentsion.h */,
+				3344B598237E8B0200A4D612 /* UIDevice+FSExtentsion.m */,
+				3344B59C237E8B0200A4D612 /* NSString+Encrypt.h */,
+				3344B591237E8B0200A4D612 /* NSString+Encrypt.m */,
+				3344B595237E8B0200A4D612 /* UINavigationController+PopJump.h */,
+				3344B5A3237E8B0200A4D612 /* UINavigationController+PopJump.m */,
+				3344B594237E8B0200A4D612 /* AFNetworkReachabilityManager+FSNetType.h */,
+				3344B5A4237E8B0200A4D612 /* AFNetworkReachabilityManager+FSNetType.m */,
+				3344B5A5237E8B0200A4D612 /* NSString+emojiFilter.h */,
+				3344B599237E8B0200A4D612 /* NSString+emojiFilter.m */,
+				3344B5A7237E8B0200A4D612 /* UIViewController+BackButtonHandler.h */,
+				3344B597237E8B0200A4D612 /* UIViewController+BackButtonHandler.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		338E5429237C0BCA00EF314B = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +188,9 @@
 		338E5434237C0BCA00EF314B /* BaseInOne */ = {
 			isa = PBXGroup;
 			children = (
+				3344B58B237E8B0200A4D612 /* Category */,
+				3344B57C237E87F000A4D612 /* IAP */,
+				3344B57B237E87D100A4D612 /* Helper */,
 				3344B561237E53FD00A4D612 /* Base */,
 				338E5435237C0BCA00EF314B /* AppDelegate.h */,
 				338E5436237C0BCA00EF314B /* AppDelegate.m */,
@@ -122,6 +203,8 @@
 				338E5443237C0BCC00EF314B /* LaunchScreen.storyboard */,
 				338E5446237C0BCC00EF314B /* Info.plist */,
 				338E5447237C0BCC00EF314B /* main.m */,
+				3344B5B6237E8BBD00A4D612 /* PrefixHeader.pch */,
+				3344B5BA237E922000A4D612 /* ConfigMacro_h.h */,
 			);
 			path = BaseInOne;
 			sourceTree = "<group>";
@@ -257,17 +340,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3344B5B4237E8B0200A4D612 /* UINavigationController+PopJump.m in Sources */,
+				3344B5B1237E8B0200A4D612 /* NSNumber+Category.m in Sources */,
 				338E543D237C0BCA00EF314B /* ViewController.m in Sources */,
 				3344B56D237E7B4F00A4D612 /* FSBaseTableView.m in Sources */,
+				3344B5AE237E8B0200A4D612 /* NSString+emojiFilter.m in Sources */,
 				3344B567237E564B00A4D612 /* QSBaseViewController.m in Sources */,
+				3344B5AF237E8B0200A4D612 /* UIView+CornerRadius.m in Sources */,
 				3344B577237E81F100A4D612 /* FSBaseNavigationTabContainerController.m in Sources */,
+				3344B5AD237E8B0200A4D612 /* UIDevice+FSExtentsion.m in Sources */,
 				338E5437237C0BCA00EF314B /* AppDelegate.m in Sources */,
+				3344B5AA237E8B0200A4D612 /* NSString+Encrypt.m in Sources */,
 				3344B56E237E7B4F00A4D612 /* QSBaseTableController.m in Sources */,
 				338E5448237C0BCC00EF314B /* main.m in Sources */,
+				3344B5B3237E8B0200A4D612 /* MBProgressHUD+FSConvenience.m in Sources */,
+				3344B5B5237E8B0200A4D612 /* AFNetworkReachabilityManager+FSNetType.m in Sources */,
 				3344B57A237E84D600A4D612 /* FSBaseNavigationController.m in Sources */,
 				338E543A237C0BCA00EF314B /* SceneDelegate.m in Sources */,
+				3344B5AC237E8B0200A4D612 /* UIViewController+BackButtonHandler.m in Sources */,
 				3344B573237E7BA400A4D612 /* FSPaginateModel.m in Sources */,
 				3344B574237E7BA400A4D612 /* FSExtraModel.m in Sources */,
+				3344B57F237E87F000A4D612 /* FSIAPManager.m in Sources */,
+				3344B5A9237E8B0200A4D612 /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +504,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH554UJ63T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaseInOne/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseInOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +524,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH554UJ63T;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaseInOne/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseInOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

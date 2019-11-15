@@ -18,6 +18,7 @@ PODS:
   - HMSegmentedControl (1.5.5)
   - Masonry (1.1.0)
   - MBProgressHUD (1.1.0)
+  - MJExtension (3.2.1)
   - MJRefresh (3.2.2)
   - ReactiveObjC (3.1.1)
   - SDWebImage (5.3.1):
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - HMSegmentedControl
   - Masonry
   - MBProgressHUD
+  - MJExtension
   - MJRefresh
   - ReactiveObjC
   - SDWebImage
@@ -49,6 +51,7 @@ SPEC REPOS:
     - HMSegmentedControl
     - Masonry
     - MBProgressHUD
+    - MJExtension
     - MJRefresh
     - ReactiveObjC
     - SDWebImage
@@ -62,6 +65,7 @@ SPEC CHECKSUMS:
   HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
   MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
@@ -69,6 +73,6 @@ SPEC CHECKSUMS:
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: cc73724ea79e157baa6fd22126820a91063cf94f
+PODFILE CHECKSUM: 7ce6ca59cdc292dbd39ca12c898da43d69628e9a
 
 COCOAPODS: 1.8.4

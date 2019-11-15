@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  Imperva
+//
+//  Created by jason on 2018/11/23.
+//  Copyright © 2018 jason. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ConfigMacro_h.h"
+#import "Masonry.h"
+#import "MBProgressHUD.h"
+#import "UIDevice+FSExtentsion.h"
+#import "MJRefresh.h"
+//#import "FSEnumeration.h"
+#import "MBProgressHUD+FSConvenience.h"
+//#import "ConfigMacroPublic.h"
+#import "MJExtension.h"
+//#import "FSLoginTool.h"
+#import "ReactiveObjC.h"
+#import "YYCategories.h"
+#import "AFNetworking.h"
+#import "SDWebImage.h"
+//#import "FSRequestCollection.h"
+//#import "FSNewBuyView.h"
+//#import "FSLocalRecord.h"
+//#import "FSRouter.h"
+//#import "QSPlayerManager.h"
+
+//#import "QSModelCollection.h"
+
+//#import "QSAlertView.h"
+#import "UINavigationController+PopJump.h"
+//#import "NSString+NSPredicate.h"
+
+
+#endif /* PrefixHeader_pch */
