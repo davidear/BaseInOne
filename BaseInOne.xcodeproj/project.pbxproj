@@ -3,11 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		09620FC43441AE3D1923B30B /* Pods_BaseInOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210F0B0383F9D9D1B164F285 /* Pods_BaseInOne.framework */; };
+		3344B567237E564B00A4D612 /* QSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B565237E564B00A4D612 /* QSBaseViewController.m */; };
+		3344B56D237E7B4F00A4D612 /* FSBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B56A237E7B4F00A4D612 /* FSBaseTableView.m */; };
+		3344B56E237E7B4F00A4D612 /* QSBaseTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B56B237E7B4F00A4D612 /* QSBaseTableController.m */; };
+		3344B573237E7BA400A4D612 /* FSPaginateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B570237E7BA400A4D612 /* FSPaginateModel.m */; };
+		3344B574237E7BA400A4D612 /* FSExtraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B571237E7BA400A4D612 /* FSExtraModel.m */; };
+		3344B577237E81F100A4D612 /* FSBaseNavigationTabContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B575237E81F100A4D612 /* FSBaseNavigationTabContainerController.m */; };
+		3344B57A237E84D600A4D612 /* FSBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3344B579237E84D600A4D612 /* FSBaseNavigationController.m */; };
 		338E5437237C0BCA00EF314B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E5436237C0BCA00EF314B /* AppDelegate.m */; };
 		338E543A237C0BCA00EF314B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E5439237C0BCA00EF314B /* SceneDelegate.m */; };
 		338E543D237C0BCA00EF314B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E543C237C0BCA00EF314B /* ViewController.m */; };
@@ -19,6 +26,20 @@
 
 /* Begin PBXFileReference section */
 		210F0B0383F9D9D1B164F285 /* Pods_BaseInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseInOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3344B565237E564B00A4D612 /* QSBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseViewController.m; sourceTree = "<group>"; };
+		3344B566237E564B00A4D612 /* QSBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseViewController.h; sourceTree = "<group>"; };
+		3344B569237E7B4E00A4D612 /* FSBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseTableView.h; sourceTree = "<group>"; };
+		3344B56A237E7B4F00A4D612 /* FSBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseTableView.m; sourceTree = "<group>"; };
+		3344B56B237E7B4F00A4D612 /* QSBaseTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSBaseTableController.m; sourceTree = "<group>"; };
+		3344B56C237E7B4F00A4D612 /* QSBaseTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSBaseTableController.h; sourceTree = "<group>"; };
+		3344B56F237E7BA400A4D612 /* FSExtraModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSExtraModel.h; sourceTree = "<group>"; };
+		3344B570237E7BA400A4D612 /* FSPaginateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPaginateModel.m; sourceTree = "<group>"; };
+		3344B571237E7BA400A4D612 /* FSExtraModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSExtraModel.m; sourceTree = "<group>"; };
+		3344B572237E7BA400A4D612 /* FSPaginateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPaginateModel.h; sourceTree = "<group>"; };
+		3344B575237E81F100A4D612 /* FSBaseNavigationTabContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseNavigationTabContainerController.m; sourceTree = "<group>"; };
+		3344B576237E81F100A4D612 /* FSBaseNavigationTabContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseNavigationTabContainerController.h; sourceTree = "<group>"; };
+		3344B578237E84D600A4D612 /* FSBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseNavigationController.h; sourceTree = "<group>"; };
+		3344B579237E84D600A4D612 /* FSBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseNavigationController.m; sourceTree = "<group>"; };
 		338E5432237C0BCA00EF314B /* BaseInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338E5435237C0BCA00EF314B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		338E5436237C0BCA00EF314B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +68,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3344B561237E53FD00A4D612 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3344B566237E564B00A4D612 /* QSBaseViewController.h */,
+				3344B565237E564B00A4D612 /* QSBaseViewController.m */,
+				3344B569237E7B4E00A4D612 /* FSBaseTableView.h */,
+				3344B56A237E7B4F00A4D612 /* FSBaseTableView.m */,
+				3344B56C237E7B4F00A4D612 /* QSBaseTableController.h */,
+				3344B56B237E7B4F00A4D612 /* QSBaseTableController.m */,
+				3344B56F237E7BA400A4D612 /* FSExtraModel.h */,
+				3344B571237E7BA400A4D612 /* FSExtraModel.m */,
+				3344B572237E7BA400A4D612 /* FSPaginateModel.h */,
+				3344B570237E7BA400A4D612 /* FSPaginateModel.m */,
+				3344B576237E81F100A4D612 /* FSBaseNavigationTabContainerController.h */,
+				3344B575237E81F100A4D612 /* FSBaseNavigationTabContainerController.m */,
+				3344B578237E84D600A4D612 /* FSBaseNavigationController.h */,
+				3344B579237E84D600A4D612 /* FSBaseNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		338E5429237C0BCA00EF314B = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +110,7 @@
 		338E5434237C0BCA00EF314B /* BaseInOne */ = {
 			isa = PBXGroup;
 			children = (
+				3344B561237E53FD00A4D612 /* Base */,
 				338E5435237C0BCA00EF314B /* AppDelegate.h */,
 				338E5436237C0BCA00EF314B /* AppDelegate.m */,
 				338E5438237C0BCA00EF314B /* SceneDelegate.h */,
@@ -89,7 +132,6 @@
 				EFCF37869EB343A133E6F14C /* Pods-BaseInOne.debug.xcconfig */,
 				EA504DD2A397660855AF4553 /* Pods-BaseInOne.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,6 +154,7 @@
 				338E542E237C0BCA00EF314B /* Sources */,
 				338E542F237C0BCA00EF314B /* Frameworks */,
 				338E5430237C0BCA00EF314B /* Resources */,
+				07BA44BF2A5FFDC8274BC10A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +211,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		07BA44BF2A5FFDC8274BC10A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseInOne/Pods-BaseInOne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BaseInOne/Pods-BaseInOne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BaseInOne/Pods-BaseInOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4485408B69D4E95D8E18062C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,9 +258,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				338E543D237C0BCA00EF314B /* ViewController.m in Sources */,
+				3344B56D237E7B4F00A4D612 /* FSBaseTableView.m in Sources */,
+				3344B567237E564B00A4D612 /* QSBaseViewController.m in Sources */,
+				3344B577237E81F100A4D612 /* FSBaseNavigationTabContainerController.m in Sources */,
 				338E5437237C0BCA00EF314B /* AppDelegate.m in Sources */,
+				3344B56E237E7B4F00A4D612 /* QSBaseTableController.m in Sources */,
 				338E5448237C0BCC00EF314B /* main.m in Sources */,
+				3344B57A237E84D600A4D612 /* FSBaseNavigationController.m in Sources */,
 				338E543A237C0BCA00EF314B /* SceneDelegate.m in Sources */,
+				3344B573237E7BA400A4D612 /* FSPaginateModel.m in Sources */,
+				3344B574237E7BA400A4D612 /* FSExtraModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

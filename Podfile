@@ -6,5 +6,16 @@ target 'BaseInOne' do
   use_frameworks!
 
   # Pods for BaseInOne
+  pod 'Masonry'
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'YYCategories'
+  pod 'ReactiveObjC'
+  pod 'WebViewJavascriptBridge'
+  pod 'MJRefresh'
+  pod 'MBProgressHUD'
+  pod 'TWMessageBarManager'
+  pod 'DZNEmptyDataSet'
+  pod 'HMSegmentedControl'
 
 end
